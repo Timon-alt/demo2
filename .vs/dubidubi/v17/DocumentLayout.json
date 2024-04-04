@@ -1,0 +1,52 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\abaob\\Sisharp\\dubi dubi\\dubidubi\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{21DE146B-2D99-4CB2-8EB2-C1B38788E60E}|dubidubi\\dubidubi.csproj|c:\\abaob\\sisharp\\dubi dubi\\dubidubi\\dubidubi\\views\\windows\\startwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{21DE146B-2D99-4CB2-8EB2-C1B38788E60E}|dubidubi\\dubidubi.csproj|solutionrelative:dubidubi\\views\\windows\\startwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{21DE146B-2D99-4CB2-8EB2-C1B38788E60E}|dubidubi\\dubidubi.csproj|c:\\abaob\\sisharp\\dubi dubi\\dubidubi\\dubidubi\\resources\\styles\\startstyle.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{21DE146B-2D99-4CB2-8EB2-C1B38788E60E}|dubidubi\\dubidubi.csproj|solutionrelative:dubidubi\\resources\\styles\\startstyle.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "StartStyle.xaml",
+              "DocumentMoniker": "C:\\abaob\\Sisharp\\dubi dubi\\dubidubi\\dubidubi\\Resources\\Styles\\StartStyle.xaml",
+              "RelativeDocumentMoniker": "dubidubi\\Resources\\Styles\\StartStyle.xaml",
+              "ToolTip": "C:\\abaob\\Sisharp\\dubi dubi\\dubidubi\\dubidubi\\Resources\\Styles\\StartStyle.xaml",
+              "RelativeToolTip": "dubidubi\\Resources\\Styles\\StartStyle.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-04-03T17:06:35.797Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "StartWindow.xaml",
+              "DocumentMoniker": "C:\\abaob\\Sisharp\\dubi dubi\\dubidubi\\dubidubi\\Views\\Windows\\StartWindow.xaml",
+              "RelativeDocumentMoniker": "dubidubi\\Views\\Windows\\StartWindow.xaml",
+              "ToolTip": "C:\\abaob\\Sisharp\\dubi dubi\\dubidubi\\dubidubi\\Views\\Windows\\StartWindow.xaml",
+              "RelativeToolTip": "dubidubi\\Views\\Windows\\StartWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-04-03T14:58:11.884Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net8.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="DataBase\**" />
+    <Compile Remove="Resources\Images\**" />
+    <Compile Remove="Resources\Scripts\**" />
+    <EmbeddedResource Remove="DataBase\**" />
+    <EmbeddedResource Remove="Resources\Images\**" />
+    <EmbeddedResource Remove="Resources\Scripts\**" />
+    <None Remove="DataBase\**" />
+    <None Remove="Resources\Images\**" />
+    <None Remove="Resources\Scripts\**" />
+    <Page Remove="DataBase\**" />
+    <Page Remove="Resources\Images\**" />
+    <Page Remove="Resources\Scripts\**" />
+  </ItemGroup>
+
+</Project>
