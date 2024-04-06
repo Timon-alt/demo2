@@ -1,4 +1,5 @@
-﻿using System.Text;
+﻿using dubidubi.Views.Pages;
+using System.Text;
 using System.Windows;
 using System.Windows.Controls;
 using System.Windows.Data;
@@ -19,6 +20,12 @@ namespace dubidubi
         public MainWindow()
         {
             InitializeComponent();
+            Main.Content = new MenuPage(); 
+        }
+
+        public void RB1_Checked(object sender, RoutedEventArgs e)
+        {
+            
         }
     }
 }

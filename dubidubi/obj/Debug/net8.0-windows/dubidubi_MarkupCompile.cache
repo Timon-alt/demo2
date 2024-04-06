@@ -4,17 +4,17 @@
 winexe
 C#
 .cs
-C:\abob\c#\demo\demo-master\dubidubi\obj\Debug\net8.0-windows\
+C:\abob\sisharp\demo\demomaster\dubidubi\obj\Debug\net8.0-windows\
 dubidubi
 none
 false
 TRACE;DEBUG;NET;NET8_0;NETCOREAPP
-C:\abob\c#\demo\demo-master\dubidubi\App.xaml
-3-415202759
+C:\abob\sisharp\demo\demomaster\dubidubi\App.xaml
+6-1063242217
 
-5-41958720
+61783811778
 198-294894759
-MainWindow.xaml;Resources\Styles\StartStyle.xaml;Views\Windows\StartWindow.xaml;
+MainWindow.xaml;Resources\Styles\MainStyle.xaml;Resources\Styles\MenuStyle.xaml;Resources\Styles\StartStyle.xaml;Views\Pages\MenuPage.xaml;Views\Windows\StartWindow.xaml;
 
 False
 

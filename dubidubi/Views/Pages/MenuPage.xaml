@@ -5,34 +5,43 @@
       xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
       xmlns:local="clr-namespace:dubidubi.Views.Pages"
       mc:Ignorable="d" 
-      d:DesignHeight="450" d:DesignWidth="800"
-      Title="MenuPage">
-    <Border BorderBrush="Black" BorderThickness="1">
-        <StackPanel>
-            <StackPanel Height="100">
-                <Border BorderBrush="Black" BorderThickness="1" Height="100">
-                    <TextBlock TextWrapping="Wrap" Text="TextBlock"/>
+      d:DesignHeight="458"
+      Title="MenuPage" Width="734">
+
+    <Page.Resources>
+        <ResourceDictionary>
+            <ResourceDictionary.MergedDictionaries>
+                <ResourceDictionary Source="../../Resources/Styles/MenuStyle.xaml"/>
+            </ResourceDictionary.MergedDictionaries>
+        </ResourceDictionary>
+    </Page.Resources>
+
+    <Border Grid.Row="0" Grid.Column="0" Grid.RowSpan="2" Style="{StaticResource MenuBorder}" Margin="-142,0,680,0">
+        <StackPanel Orientation="Vertical">
+            <StackPanel Style="{StaticResource TopMenuPanel}">
+                <Border Style="{StaticResource IconTextBorder}">
+                    <TextBlock Text="XY" />
                 </Border>
-                <StackPanel Height="100">
-                    <TextBlock TextWrapping="Wrap" Text="TextBlock"/>
-                    <TextBlock TextWrapping="Wrap" Text="TextBlock"/>
+                <StackPanel Style="{StaticResource UsernamePanel}">
+                    <TextBlock Style="{StaticResource UsernameStyle}"/>
+                    <TextBlock Style="{StaticResource UsernameStyle}"/>
                 </StackPanel>
             </StackPanel>
-            <Separator Height="100"/>
-            <RadioButton>
-                <TextBlock TextWrapping="Wrap" Text="TextBlock"/>
+            <Separator Style="{StaticResource SeperatorStyle}"/>
+            <RadioButton Name ="RB1" Style="{StaticResource MenuButtonStyle}">
+                <TextBlock Name="Rb1" Style="{StaticResource MenuTextStyle}" Text="Главная"/>
             </RadioButton>
-            <RadioButton>
-                <TextBlock TextWrapping="Wrap" Text="TextBlock"/>
+            <RadioButton  Name ="RB2" Style="{StaticResource MenuButtonStyle}">
+                <TextBlock TextWrapping="Wrap" Text="Клиенты" Style="{StaticResource MenuTextStyle}" />
             </RadioButton>
-            <RadioButton>
-                <TextBlock TextWrapping="Wrap" Text="TextBlock"/>
+            <RadioButton  Name ="RB3" Style="{StaticResource MenuButtonStyle}">
+                <TextBlock TextWrapping="Wrap" Text="Магазин"  Style="{StaticResource MenuTextStyle}"/>
             </RadioButton>
-            <RadioButton>
-                <TextBlock TextWrapping="Wrap" Text="TextBlock"/>
+            <RadioButton  Name ="RB4" Style="{StaticResource MenuButtonStyle}">
+                <TextBlock TextWrapping="Wrap" Text="Корзина" Style="{StaticResource MenuTextStyle}"/>
             </RadioButton>
-            <RadioButton>
-                <TextBlock TextWrapping="Wrap" Text="TextBlock"/>
+            <RadioButton  Name ="RB5" Style="{StaticResource MenuButtonStyle}">
+                <TextBlock TextWrapping="Wrap" Text="МЕЙДЖБЛАД БЕСПЛАТНО!!!!" Style="{StaticResource MenuTextStyle}"/>
             </RadioButton>
         </StackPanel>
     </Border>

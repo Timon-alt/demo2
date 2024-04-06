@@ -7,6 +7,10 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="684" Width="1030">
     <Grid Background="#2c386c">
+        <Frame x:Name="Main"/>
+        <Label Content="Добро пожаловать" HorizontalAlignment="Left" Margin="408,204,0,0" VerticalAlignment="Top" Foreground="White" FontFamily="Segoe UI Black" FontSize="36"/>
+        <Label Content="Выберите действие слева в меню" HorizontalAlignment="Left" Margin="308,0,0,0" VerticalAlignment="Center" Foreground="White" FontFamily="Segoe UI Black" FontSize="32"/>
+        
 
     </Grid>
 </Window>
